@@ -1,6 +1,7 @@
 # 🤖 Private RAG Chatbot: Full-Stack Document Assistant
 
 A complete Retrieval-Augmented Generation (RAG) system that allows you to upload PDF/TXT documents and chat with them locally and securely. This project uses a 100% local AI pipeline to ensure data privacy.
+
 ---
 ## 🚀 Key Features
 - **Full-Stack Architecture:** FastAPI backend with a modern Streamlit frontend  
@@ -62,7 +63,6 @@ to start chatting with your documents!
 
 ---
 ### 🌐 Live Demo
----
 You can find the live deployment of this project on Hugging Face Spaces here:
 https://huggingface.co/spaces/Hema28/Rag-Chatbot
 
