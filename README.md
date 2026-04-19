@@ -15,7 +15,21 @@ A complete Retrieval-Augmented Generation (RAG) system that allows you to upload
 - **Embeddings:** `sentence-transformers/all-MiniLM-L6-v2`  
 - **Vector DB:** ChromaDB  
 - **Frameworks:** FastAPI, Streamlit, LangChain  
-- **Deployment:** Hugging Face Spaces  
+- **Deployment:** Hugging Face Spaces
+
+## 📸 Screenshots
+
+### 🏠 Home Interface
+<img width="1919" height="910" alt="Home Interface" src="https://github.com/user-attachments/assets/e8282ece-9f3e-42a5-843d-b220d9c05f6d" />
+
+### 📄 Document Upload Panel
+<img width="1919" height="906" alt="Home Interface" src="https://github.com/user-attachments/assets/3ca913fc-360e-4d5c-9db9-ca99e97b1fb1" />
+
+### ⚙️ Document Ingestion Process
+<img width="1919" height="907" alt="Document Ingestion Process" src="https://github.com/user-attachments/assets/15a96be1-45c3-43f1-a7cf-36684305f205" />
+
+### 🔍 Retrieved Context
+<img width="1919" height="907" alt="Retrieved Context" src="https://github.com/user-attachments/assets/35b11d54-c8b2-4d9a-9698-cd1e9d889506" />
 
 ## 📦 Installation & Setup
 
