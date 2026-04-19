@@ -20,6 +20,34 @@ A complete Retrieval-Augmented Generation (RAG) system that allows you to upload
 ## 📦 Installation & Setup
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/HemaRamachandran28/Private-RAG-Chatbot-Full-Stack-Document-Assistant.git
-cd rag-chatbot
+
+`git clone https://github.com/HemaRamachandran28/Private-RAG-Chatbot-Full-Stack-Document-Assistant.git
+cd rag-chatbot `
+
+### Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+
+### Install dependencies
+pip install -r requirements.txt
+
+###Set up Environment Variables
+Create a .env file in the root directory:
+API_KEY=your_secret_password_here
+
+### 🎮 How to Run
+1. Start the FastAPI Backend
+uvicorn app.main:app --reload
+2. Start the Streamlit UI
+streamlit run app/ui.py
+
+Visit: http://localhost:8501
+to start chatting with your documents!
+
+### 🌐 Live Demo
+
+You can find the live deployment of this project on Hugging Face Spaces here:
+https://huggingface.co/spaces/Hema28/Rag-Chatbot
+
+### 📜 License
+MIT License
