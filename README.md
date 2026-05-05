@@ -18,6 +18,10 @@ A complete Retrieval-Augmented Generation (RAG) system that allows you to upload
 - **Frameworks:** FastAPI, Streamlit, LangChain  
 - **Deployment:** Hugging Face Spaces
 ---
+## 🧠 Workflow Diagram
+<img width="1024" height="559" alt="Workflow" src="https://github.com/user-attachments/assets/d618f6dd-2029-4cef-8788-355d54cd8d74" />
+
+---
 ## 📸 Screenshots
 
 ### 🏠 Home Interface
